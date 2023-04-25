@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <aside>
+            <div class="banner">
+                <img src="assets/odin.png" alt="odin logo" width="100px">
+                <h1>The best thing (ever)</h1>
+            </div>
+        </aside>
+        <article>
+            <section class="form-header">
+                <h1>Sign Up</h1>
+                <p>Are you ready for this <strong>really cool service?</strong>. Just complete this form and you're good to go.</p>
+            </section>
+            <form action="#">
+                <h2>Let's do this!</h2>
+                <section class="fields">
+                    <div class="form-field">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                        <p class="error" data-name="password">test</p>
+                    </div>
+                    <div class="form-field">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        <p class="error" data-name="confirmPassword">test</p>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <button class="button" type="submit">Create account!</button>
+                <p class="login-reminder">Already have an account? <a href="#">Click here to log in</a>.</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
